@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<style type="text/css">
+		@font-face{
+			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		}
+		body{
+			background-color: #4B292A
+			
+		}
+		header{
+			background-color: #000000;
+			align-content: center
+		}
+	</style>
+<header>
+	<h1><font color="#FFFFFF" face="lucida Console">Pagina para solucion de ecuaciones cuadratica</font></h1>
+</header>
+</head>
+
+<body>
+<font color="#FBF8F8" face="monospace">
+<h1>Soluci&oacute;n a la ecuaci&oacute;n cuadr&aacute;tica</h1>
+<p>&nbsp;</p>
+<form name="form1" method="post" action="calcula.php">
+  <p>Valor del coeficiente a:</p>
+  <p>    <input type="text" name="txtA">
+  </p>
+  <p>Valor del coeficiente b:</p>
+  <p>
+    <input type="text" name="txtB">
+</p>
+  <p>Valor del coeficiente c:</p>
+  <p>
+    <input type="text" name="txtC"> 
+  </p>
+  <p>
+    <input name="cmdCalcula" type="submit" id="cmdCalcula" value="Resolver">
+  </p>
+</form>
+	</font>
+</body>
+	<p></p>
+	<p></p>
+	
+<section>
+		<h1><font color="#FFFFFF" face="lucida Console">Pagina para solucion de bio ritmo</font></h1>
+	<font color="#9ACFDF" face="monospace">
+	    Para tal efecto es necesario conocer la fecha de nacimiento y la fecha actual.<br>
+    La duración de los ciclos es:<br><br>
+    
+    Fisico: 23 dias<br>
+    Emocional: 28 dias<br>
+    Intelectual: 33 dias<br><br>
+	</font>
+<form name="Datos" method="post" action="calbio.php">
+	<font color="#FBF8F8" face="monospace">
+    <p>Fecha de nacimiento:
+  <input type="date" name="fecnac">
+      Fecha de cálculo: <input type="date" name="fecact">
+    </p>
+    <p>
+        
+      <input name="cmdCalcula" type="submit" value="Calculos">
+    </p>
+	</font>
+  </form>
+</section>
+</html>
